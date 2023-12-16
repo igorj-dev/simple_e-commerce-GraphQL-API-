@@ -11,7 +11,7 @@ import { Image } from './images/image.entity';
   imports: [
     TypeOrmModule.forRoot({
       type: 'mongodb',
-      url: 'mongodb+srv://igor:12345@cluster0.ech1ahe.mongodb.net/?retryWrites=true&w=majority',
+      url: 'mongodb+srv://@cluster0.ech1ahe.mongodb.net/?retryWrites=true&w=majority',
       synchronize: true,
       useUnifiedTopology: true,
       entities: [Product, Image],
